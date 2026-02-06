@@ -1,8 +1,9 @@
-# HyreNet BugAThon – End-to-End Selenium Automation Framework (Java + TestNG)
+# AI Assessment Platform Bugathon – End-to-End Selenium Automation Framework
+
 
 ## Overview
 
-This repository contains an end-to-end automation framework developed for the **HyreNet AI Assessment Platform BugAThon**. The objective of this project is to automate critical assessment workflows, validate platform behavior, and identify potential defects impacting system stability and user experience.
+This repository contains an end-to-end automation framework developed for the **AI Assessment Platform Bugathon – End-to-End Selenium Automation Framework**.The objective of this project is to automate critical assessment workflows, validate platform behavior, and identify potential defects impacting system stability and user experience.
 
 The framework is built using **Java**, **Selenium WebDriver**, and **TestNG**, following the **Page Object Model (POM)** design pattern to ensure scalability, maintainability, and clear separation of concerns.
 
