@@ -247,4 +247,3 @@ Darshini Ravichandran
 
 ---
 
-If you want, I can also give you a **senior QA-engineer style upgraded README version** that looks even more professional for recruiters and stands out strongly in GitHub reviews. Just tell me.
