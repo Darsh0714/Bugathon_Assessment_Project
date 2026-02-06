@@ -1,9 +1,8 @@
 # AI Assessment Platform Bugathon – End-to-End Selenium Automation Framework
 
-
 ## Overview
 
-This repository contains an end-to-end automation framework developed for the **AI Assessment Platform Bugathon – End-to-End Selenium Automation Framework**.The objective of this project is to automate critical assessment workflows, validate platform behavior, and identify potential defects impacting system stability and user experience.
+This repository contains an end-to-end automation framework developed as part of an AI Assessment Platform Bugathon. The objective of this project is to automate critical assessment workflows, validate platform behavior, and identify potential defects impacting system stability and user experience.
 
 The framework is built using **Java**, **Selenium WebDriver**, and **TestNG**, following the **Page Object Model (POM)** design pattern to ensure scalability, maintainability, and clear separation of concerns.
 
@@ -11,17 +10,17 @@ The framework is built using **Java**, **Selenium WebDriver**, and **TestNG**, f
 
 ## Project Objective
 
-The automation suite covers the complete lifecycle of creating and managing an assessment within the HyreNet platform. Key workflows automated include:
+The automation suite covers the complete lifecycle of creating and managing an assessment within an AI-based assessment platform. Key workflows automated include:
 
-* User authentication
-* Dashboard navigation
-* Template creation
-* Assessment creation
-* Question library interaction
-* Objective question selection
-* Programming question selection
-* Popup handling and synchronization
-* Save and submit workflow
+- User authentication
+- Dashboard navigation
+- Template creation
+- Assessment creation
+- Question library interaction
+- Objective question selection
+- Programming question selection
+- Popup handling and synchronization
+- Save and submit workflow
 
 Automation execution was supported by manual testing to validate platform behavior and confirm workflow stability.
 
@@ -29,23 +28,23 @@ Automation execution was supported by manual testing to validate platform behavi
 
 ## Technology Stack
 
-Programming Language
+**Programming Language**  
 Java
 
-Automation Tool
+**Automation Tool**  
 Selenium WebDriver
 
-Testing Framework
+**Testing Framework**  
 TestNG
 
-Build Tool
+**Build Tool**  
 Maven
 
-Framework Design
+**Framework Design**  
 Page Object Model (POM)
 
-Utilities
-Custom StepLogger
+**Utilities**  
+Custom StepLogger  
 Demo Mode Execution Utility
 
 ---
@@ -82,23 +81,12 @@ com.hyrenet
 
 Each UI page is encapsulated within a dedicated class responsible for handling element interactions and business logic.
 
-LoginPage
-Handles authentication and login validation.
-
-DashboardPage
-Manages navigation between platform modules.
-
-TemplateCreatePage
-Controls template creation workflow.
-
-CreateTestPage
-Handles test setup actions.
-
-AssessmentPage
-Manages assessment configuration.
-
-QuestionLibraryPopup
-Handles modal interaction, filtering, and question selection.
+- **LoginPage** – Handles authentication and login validation  
+- **DashboardPage** – Manages navigation between platform modules  
+- **TemplateCreatePage** – Controls template creation workflow  
+- **CreateTestPage** – Handles test setup actions  
+- **AssessmentPage** – Manages assessment configuration  
+- **QuestionLibraryPopup** – Handles modal interaction, filtering, and question selection  
 
 This design improves readability, reusability, and long-term maintainability.
 
@@ -108,10 +96,10 @@ This design improves readability, reusability, and long-term maintainability.
 
 A custom SafeClick implementation ensures stable interaction with dynamic UI elements. The strategy includes:
 
-* Scroll into view handling
-* Explicit wait synchronization
-* JavaScript fallback click execution
-* Handling ElementNotInteractableException scenarios
+- Scroll into view handling
+- Explicit wait synchronization
+- JavaScript fallback click execution
+- Handling ElementNotInteractableException scenarios
 
 This significantly reduces flaky test failures caused by modal transitions and delayed rendering.
 
@@ -127,24 +115,24 @@ Config.DEMO_MODE = true;
 
 When enabled:
 
-* Execution pauses between steps
-* Automation flow becomes visually traceable
-* Ideal for BugAThon demonstration videos
+- Execution pauses between steps
+- Automation flow becomes visually traceable
+- Ideal for Bugathon demonstration videos
 
 ---
 
 ## Automation Flow Covered
 
-Login
-Dashboard Navigation
-Template Creation
-Assessment Creation
-Open Question Library Popup
-Add Objective Questions
-Switch to Programming Tab
-Add Programming Questions
-Close Popup Safely
-Save and Submit Assessment
+Login  
+Dashboard Navigation  
+Template Creation  
+Assessment Creation  
+Open Question Library Popup  
+Add Objective Questions  
+Switch to Programming Tab  
+Add Programming Questions  
+Close Popup Safely  
+Save and Submit Assessment  
 
 ---
 
@@ -176,9 +164,7 @@ git clone <repository-url>
 
 ### Open in IDE
 
-Recommended IDE:
-
-Visual Studio Code
+Recommended IDE: Visual Studio Code
 
 ### Run Tests Using Maven
 
@@ -192,13 +178,13 @@ mvn clean test
 
 Automation and manual testing were conducted to validate:
 
-* Functional workflow execution
-* Popup handling stability
-* Question library interactions
-* Navigation consistency
-* UI synchronization during modal transitions
+- Functional workflow execution
+- Popup handling stability
+- Question library interactions
+- Navigation consistency
+- UI synchronization during modal transitions
 
-Testing focused on flows defined within the BugAThon problem statement.
+Testing focused on flows defined within the Bugathon problem statement.
 
 ---
 
@@ -212,39 +198,36 @@ All observations and validations are documented within the provided test artifac
 
 ## Deliverables Included
 
-Selenium Automation Framework
-Test Scenarios
-Test Cases (Positive and Negative)
-Requirement Traceability Matrix (RTM)
-Bug Report Template
-Execution Demo Video
-GitHub Repository
+- Selenium Automation Framework
+- Test Scenarios
+- Test Cases (Positive and Negative)
+- Requirement Traceability Matrix (RTM)
+- Bug Report Template
+- Execution Demo Video
+- GitHub Repository
 
 ---
 
 ## Key Framework Features
 
-* End-to-end HyreNet workflow automation
-* Clean Page Object Model architecture
-* Stable SafeClick interaction strategy
-* Demo-friendly execution flow
-* Custom structured logging
-* Modal-safe synchronization design
+- End-to-end assessment workflow automation
+- Clean Page Object Model architecture
+- Stable SafeClick interaction strategy
+- Demo-friendly execution flow
+- Custom structured logging
+- Modal-safe synchronization design
 
 ---
 
 ## Future Enhancements
 
-* Allure reporting integration
-* Jenkins CI pipeline integration
-* Cross-browser execution support
-* Automated failure screenshot reporting
+- Allure reporting integration
+- Jenkins CI pipeline integration
+- Cross-browser execution support
+- Automated failure screenshot reporting
 
 ---
 
 ## Author
 
 Darshini Ravichandran
-
----
-
