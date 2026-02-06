@@ -1,14 +1,14 @@
-# HyreNet-BugAThon-Selenium-Automation-Framework-Java-TestNG-
-This project is an automated testing framework built for the HyreNet AI Assessment Platform BugAThon. The objective is to validate assessment workflows, automate user actions, and identify potential bugs affecting functionality and user experience.
-HyreNet BugAThon – End-to-End Selenium Automation Framework (Java + TestNG)
+# HyreNet BugAThon – End-to-End Selenium Automation Framework (Java + TestNG)
 
-Overview
+## Overview
 
 This repository contains an end-to-end automation framework developed for the **HyreNet AI Assessment Platform BugAThon**. The objective of this project is to automate critical assessment workflows, validate platform behavior, and identify potential defects impacting system stability and user experience.
 
 The framework is built using **Java**, **Selenium WebDriver**, and **TestNG**, following the **Page Object Model (POM)** design pattern to ensure scalability, maintainability, and clear separation of concerns.
 
-Project Objective
+---
+
+## Project Objective
 
 The automation suite covers the complete lifecycle of creating and managing an assessment within the HyreNet platform. Key workflows automated include:
 
@@ -24,8 +24,9 @@ The automation suite covers the complete lifecycle of creating and managing an a
 
 Automation execution was supported by manual testing to validate platform behavior and confirm workflow stability.
 
+---
 
-Technology Stack
+## Technology Stack
 
 Programming Language
 Java
@@ -46,9 +47,11 @@ Utilities
 Custom StepLogger
 Demo Mode Execution Utility
 
+---
 
-Project Structure
+## Project Structure
 
+```
 com.hyrenet
 ├── base
 │   └── BaseTest.java
@@ -68,13 +71,13 @@ com.hyrenet
 │   ├── StepLogger.java
 │   ├── Config.java
 │   └── DemoUtil.java
+```
 
+---
 
+## Framework Design Highlights
 
-
-Framework Design Highlights
-
-Page Object Model (POM)
+### Page Object Model (POM)
 
 Each UI page is encapsulated within a dedicated class responsible for handling element interactions and business logic.
 
@@ -98,8 +101,9 @@ Handles modal interaction, filtering, and question selection.
 
 This design improves readability, reusability, and long-term maintainability.
 
+---
 
-SafeClick Strategy
+### SafeClick Strategy
 
 A custom SafeClick implementation ensures stable interaction with dynamic UI elements. The strategy includes:
 
@@ -110,13 +114,15 @@ A custom SafeClick implementation ensures stable interaction with dynamic UI ele
 
 This significantly reduces flaky test failures caused by modal transitions and delayed rendering.
 
+---
 
-
-Demo Mode Support
+### Demo Mode Support
 
 The framework supports a configurable Demo Mode designed for presentation and visual walkthroughs.
 
+```
 Config.DEMO_MODE = true;
+```
 
 When enabled:
 
@@ -124,8 +130,9 @@ When enabled:
 * Automation flow becomes visually traceable
 * Ideal for BugAThon demonstration videos
 
+---
 
-Automation Flow Covered
+## Automation Flow Covered
 
 Login
 Dashboard Navigation
@@ -138,42 +145,49 @@ Add Programming Questions
 Close Popup Safely
 Save and Submit Assessment
 
+---
 
-Logging System
+## Logging System
 
 A custom StepLogger utility provides clear and structured execution logs.
 
 Example output:
 
-
+```
 [STEP] Opening Question Library Popup
 [STEP] Adding Objective Questions
 [STEP] Selecting Programming Questions
 [STEP] Popup closed successfully
 [STEP] Save & Submit CONFIRMED
-
+```
 
 This improves debugging efficiency and enhances execution clarity during demos.
 
+---
 
+## How to Run the Project
 
-How to Run the Project
+### Clone the Repository
 
-Clone the Repository
-
+```
 git clone <repository-url>
+```
 
-Open in IDE
+### Open in IDE
 
 Recommended IDE:
 
 Visual Studio Code
 
-Run Tests Using Maven
+### Run Tests Using Maven
 
+```
 mvn clean test
+```
 
-Testing Scope
+---
+
+## Testing Scope
 
 Automation and manual testing were conducted to validate:
 
@@ -185,15 +199,17 @@ Automation and manual testing were conducted to validate:
 
 Testing focused on flows defined within the BugAThon problem statement.
 
+---
 
-Bug Identification Status
+## Bug Identification Status
 
 Based on current automation execution and manual validation, no functional defects were identified within the covered workflows at the time of submission.
 
 All observations and validations are documented within the provided test artifacts.
 
+---
 
-Deliverables Included
+## Deliverables Included
 
 Selenium Automation Framework
 Test Scenarios
@@ -203,8 +219,9 @@ Bug Report Template
 Execution Demo Video
 GitHub Repository
 
+---
 
-Key Framework Features
+## Key Framework Features
 
 * End-to-end HyreNet workflow automation
 * Clean Page Object Model architecture
@@ -213,17 +230,21 @@ Key Framework Features
 * Custom structured logging
 * Modal-safe synchronization design
 
+---
 
-
-Future Enhancements
+## Future Enhancements
 
 * Allure reporting integration
 * Jenkins CI pipeline integration
 * Cross-browser execution support
 * Automated failure screenshot reporting
 
+---
 
-
-Author
+## Author
 
 Darshini Ravichandran
+
+---
+
+If you want, I can also give you a **senior QA-engineer style upgraded README version** that looks even more professional for recruiters and stands out strongly in GitHub reviews. Just tell me.
