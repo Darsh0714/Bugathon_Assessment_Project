@@ -113,16 +113,16 @@
       <![CDATA[Finished Adding All Questions]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-02-06T16:47:49 IST" name="Surefire suite" finished-at="2026-02-06T16:49:25 IST" duration-ms="95897">
+  <suite started-at="2026-02-06T18:16:22 IST" name="Surefire suite" finished-at="2026-02-06T18:17:42 IST" duration-ms="80713">
     <groups>
     </groups>
-    <test started-at="2026-02-06T16:47:49 IST" name="Surefire test" finished-at="2026-02-06T16:49:25 IST" duration-ms="95897">
-      <class name="com.hyrenet.tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hyrenet.tests.LoginTest@470f1802]" started-at="2026-02-06T16:47:49 IST" name="setUp" finished-at="2026-02-06T16:48:04 IST" duration-ms="15161" status="PASS">
+    <test started-at="2026-02-06T18:16:22 IST" name="Surefire test" finished-at="2026-02-06T18:17:42 IST" duration-ms="80713">
+      <class name="com.bugathonframework.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bugathonframework.tests.LoginTest@3e92efc3]" started-at="2026-02-06T18:16:22 IST" name="setUp" finished-at="2026-02-06T18:16:29 IST" duration-ms="6973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createAssessmentFlow()[pri:0, instance:com.hyrenet.tests.LoginTest@470f1802]" started-at="2026-02-06T16:48:04 IST" name="createAssessmentFlow" finished-at="2026-02-06T16:49:25 IST" duration-ms="80413" status="PASS">
+        <test-method signature="createAssessmentFlow()[pri:0, instance:com.bugathonframework.tests.LoginTest@3e92efc3]" started-at="2026-02-06T18:16:29 IST" name="createAssessmentFlow" finished-at="2026-02-06T18:17:42 IST" duration-ms="73382" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Entering Email]]>
@@ -237,11 +237,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- createAssessmentFlow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hyrenet.tests.LoginTest@470f1802]" started-at="2026-02-06T16:49:25 IST" name="tearDown" finished-at="2026-02-06T16:49:25 IST" duration-ms="278" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bugathonframework.tests.LoginTest@3e92efc3]" started-at="2026-02-06T18:17:42 IST" name="tearDown" finished-at="2026-02-06T18:17:42 IST" duration-ms="299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.hyrenet.tests.LoginTest -->
+      </class> <!-- com.bugathonframework.tests.LoginTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
